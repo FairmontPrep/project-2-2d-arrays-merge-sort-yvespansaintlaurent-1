@@ -22,9 +22,14 @@ public class GameBoard extends JFrame {
         // your 2D array must be a minimum of 6 rows x 2 columns
         // you may add a row for every image if you'd like to have every square be a different color/image
 
-        piecesArray = new String[1][2];
-        piecesArray[0][0]= "temp2.png";
+        piecesArray = new String[32][2];
+        piecesArray[0][0]= "lucario csa.png";
         piecesArray[0][1]= "HP:200";
+        piecesArray[1][0]="gengar.png";
+        piecesArray[1][1]="HP:198";
+        piecesArray[2][0]="snorlax.png";
+        piecesArray[2][1]="HP:250";
+        
 
         //print the contents of your 2D array
         //this is a requirement to show your 2D array is not sorted at the beginning of your program
