@@ -29,6 +29,7 @@ public class GameBoard extends JFrame {
         piecesArray[1][1]="HP:198";
         piecesArray[2][0]="snorlax.png";
         piecesArray[2][1]="HP:250";
+        piecesArray[3][1]=""
         
 
         //print the contents of your 2D array
